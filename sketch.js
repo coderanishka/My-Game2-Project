@@ -1,21 +1,7 @@
-/* The rules of this game are pretty simple..
- All you have to do is feed the hungry turtle, but there are some certain things to remember...
- --> don't let the turtle eat the trash..
- --> if it does eat the trash, then it will decrease in size..
- --> once it's very small, you loose the game..
- --> if the turtle eats the fishes, then it'll grow in size..
- --> you'll win if it comes at a certain big size..
-
- My message in this game is to let the player know that, just like it's kinda hard to feed the turtle 
- with all the trash coming in between...the same way the real turtles are unable to get their food 
- properly. Instead of eating fishes and crabs and all..they end up eating plastic and all the other sorts of 
- trash.
- Hope you like this game.. :D
-
-*/
 
 
-var pTurtle,fishR,fishL,shark;
+
+var fishR,fishL,trashR,trashL,shark;
 
 var score = 0;
 var lives = 5;
